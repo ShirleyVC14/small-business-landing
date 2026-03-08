@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lenny's Elite Lawn Care</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,38 +14,34 @@
 
     <nav> 
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
 
-    <section class="hero">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
         <h2 id="cta">Your Trusted Yard Experts</h2>
-
         <p>
             Lenny's Lawn Care provides reliable lawn maintenance and pressure washing
             services to keep your home looking beautiful year-round.
         </p>
     </section>
 
-   
+    <!-- Update CTA Section -->
     <section class="update-cta">
-
         <h3>Update Headline</h3>
-
         <input type="text" id="ctaInput" placeholder="Enter new headline">
-
         <button id="updateBtn">Update Headline</button>
-
     </section>
 
-    <section class="services">
-
+    <!-- Services Section -->
+    <section class="services" id="services">
         <div class="service">
             <h3>Lawn Mowing</h3>
             <p>Professional mowing services to keep your lawn neat and healthy.</p>
@@ -61,14 +56,24 @@
             <h3>Landscape Maintenance</h3>
             <p>Trimming, edging, and yard care to keep your property looking its best.</p>
         </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Lenny's Elite Lawn Care has been proudly serving the community, providing
+            top-quality lawn care and landscaping services to keep homes looking their best.
+        </p>
     </section>
 
 </main>
 
-<footer>
+<!-- Footer with Reset Headline Button -->
+<footer id="contact">
     <p>Contact us: lennyslawncare@email.com</p>
     <p>Phone: +1(813)-123-4567</p>
+    <button id="resetBtn">Reset Headline</button>
 </footer>
 
 <script src="cc_7.js"></script>
