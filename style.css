@@ -1,0 +1,98 @@
+body {
+    background-color: #0e570a; /* dark green background for lawn*/
+    color: #f0f0f0; /*light text for readability*/
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #a7ea91; 
+    color: white; /* white text in header */
+}
+
+header nav a {
+    color: white;               /* text color */
+    text-decoration: none;      /* remove underline */
+    font-weight: bold;
+    padding: 8px 15px;          /* space around each link */
+    border-radius: 5px;         /* slight rounded corners */
+    transition: background 0.3s; 
+}
+header nav a:hover {
+    background-color: rgb(82, 35, 6); /* hover highlight */
+    color: white;               /* keep text readable */
+}
+header nav ul {
+    display: flex;           /* horizontal layout */
+    justify-content: center; /* center nav items */
+    gap: 30px;               /* space between links */
+    padding: 0;
+    margin: 0;
+    list-style: none;        /* remove bullets */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.service {
+    background-color: rgb(73, 127, 2); 
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.service:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1c7a12; /* slightly different green to stand out */
+    color: rgb(144, 239, 19);
+}
+.update-cta {
+    text-align: center;
+    margin: 40px;
+}
+
+.update-cta input {
+    padding: 10px;
+    width: 200px;
+}
+
+.update-cta button {
+    padding: 10px 15px;
+    background-color: #a7ea91;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.update-cta button:hover {
+    background-color: rgb(82, 35, 6);
+}
+
+footer {
+    background-color: #a7ea91;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
